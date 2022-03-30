@@ -1,0 +1,40 @@
+{
+  "name": "phaser3-webpack-template",
+  "version": "1.0.0",
+  "description": "Template for phaser 3 and webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristajg/phaser3-webpack-template.git"
+  },
+  "keywords": [
+    "phaser",
+    "webpack",
+    "phaserv3"
+  ],
+  "author": "Krista Goralczyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kristajg/phaser3-webpack-template/issues"
+  },
+  "homepage": "https://github.com/kristajg/phaser3-webpack-template#readme",
+  "dependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "dotenv": "^14.2.0",
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  }
+}
